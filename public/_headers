@@ -1,0 +1,95 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---cache-caches-gatsby-plugin-offline-app-shell-js-ad6431e4664bcf916d19.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.124d24da65b67a05555e.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-e9d24b1846c7d6eb9685.js
+  Cache-Control: public, max-age=31536000, immutable
+/2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-thought-tsx-2e694c74e46af6d73864.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-tsx-f66a13d7ed4069c5752e.js
+  Cache-Control: public, max-age=31536000, immutable
+/fb7d5399-54a26f5df902e1740409.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-tsx-958238387a3623f67d58.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-dd80f9d7e47a82aec30f.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-6eeb8ad043160a79d5e7.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-391f49a53153ae6ea9ec.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/offline-plugin-app-shell-fallback/
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </component---cache-caches-gatsby-plugin-offline-app-shell-js-ad6431e4664bcf916d19.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
+/2019-08-31-small-improvements-can-make-a-huge-difference/
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js>; rel=preload; as=script
+  Link: </component---src-templates-thought-tsx-2e694c74e46af6d73864.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/2019-08-31-small-improvements-can-make-a-huge-difference/page-data.json>; rel=preload; as=fetch; crossorigin
+/2019-10-31-gatsby-themes-newsletter-october-edition/
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js>; rel=preload; as=script
+  Link: </component---src-templates-thought-tsx-2e694c74e46af6d73864.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/2019-10-31-gatsby-themes-newsletter-october-edition/page-data.json>; rel=preload; as=fetch; crossorigin
+/2020-08-02-using-NLP-to-detect-Fake-news/
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js>; rel=preload; as=script
+  Link: </component---src-templates-thought-tsx-2e694c74e46af6d73864.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/2020-08-02-using-NLP-to-detect-Fake-news/page-data.json>; rel=preload; as=fetch; crossorigin
+/404/
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js>; rel=preload; as=script
+  Link: </component---src-pages-404-tsx-f66a13d7ed4069c5752e.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
+/
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </fb7d5399-54a26f5df902e1740409.js>; rel=preload; as=script
+  Link: </2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js>; rel=preload; as=script
+  Link: </component---src-pages-index-tsx-958238387a3623f67d58.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/404.html
+  Link: </webpack-runtime-dd80f9d7e47a82aec30f.js>; rel=preload; as=script
+  Link: </framework-6eeb8ad043160a79d5e7.js>; rel=preload; as=script
+  Link: </app-391f49a53153ae6ea9ec.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </2ca97c3e9a125bdbecc35261e615a727038bafc6-1423c7e662b1f1bbd4c3.js>; rel=preload; as=script
+  Link: </component---src-pages-404-tsx-f66a13d7ed4069c5752e.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
