@@ -188,13 +188,12 @@ const Listing = () => {
           </Box>
         )
       })}
-      <p sx={{ mt: 6, fontSize: [1, 2, 2, 3], textAlign: `center` }}>
-        <span sx={{ fontWeight: `bold` }}>More Themes are coming soon ...</span> <br /> In the meantime you can have a
-        look at my already existing{` `}
-        <Themed.a href="https://github.com/LekoArts?utf8=%E2%9C%93&tab=repositories&q=gatsby&type=public&language=">
-          open source Gatsby projects
+      <p sx={{ mt: 6, fontSize: [1, 2, 2, 4], textAlign: `center` }}>
+        <span sx={{ fontWeight: `bold` }}> You have reached the end!</span> <br /> Wanted to discuss about data science, product management, marketing or even dogecoin, get in touch at {` `}
+        <Themed.a href="mailto:hi@amankalra.com">
+        hi@amankalra.com 
         </Themed.a>
-        !
+          !
       </p>
     </Container>
   )
@@ -204,7 +203,7 @@ export default Listing
 
 const ListingQuery = graphql`
   query {
-    allThemes(sort: { fields: title, order: ASC }) {
+    allThemes(sort: { fields: title }) {
       nodes {
         title
         location

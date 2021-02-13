@@ -8,14 +8,15 @@ const githubToken = process.env.GITHUB_TOKEN
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Themes by LekoArts`,
-    titleAlt: `Free & Open Source Gatsby Themes by LekoArts`,
-    siteUrl: `https://themes.lekoarts.de`,
-    description: `Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options. Use Gatsby Themes to take your project to the next level and let you and your customers take advantage of the many benefits Gatsby has to offer.`,
-    headline: `Get high-quality and customizable Gatsby themes to quickly bootstrap your website`,
+    title: `Aman Kalra`,
+    titleAlt: `Aman Kalra `,
+    siteUrl: `https://amankalra.com`,
+    description: `Passionate about products and data!
+    Curious about its place in the businesses and future sustainability. Interested in working together?`,
+    headline: `Passionate about products and data!`,
     language: `en`,
     image: `/banner.png`,
-    author: `@lekoarts_de`,
+    author: `@amankalra172`,
   },
   plugins: [
     {
@@ -101,9 +102,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Free & Open Source Gatsby Themes by LekoArts`,
-        short_name: `GatsbyThemes`,
-        description: `Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options. Use Gatsby Themes to take your project to the next level and let you and your customers take advantage of the many benefits Gatsby has to offer.`,
+        name: `Aman Kalra`,
+        short_name: `Aman`,
+        description: `Passionate about products and data!
+        Curious about its place in the businesses and future sustainability. Interested in working together?`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#5A67D8`,

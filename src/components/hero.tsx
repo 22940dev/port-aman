@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import ThreeDModel from "./3d-model"
 import { Circle, Donut } from "./shapes"
 import CircleGrid from "../icons/circle-grid"
-import Star from "../icons/star"
 import { down, up } from "../styles/animations"
 import useResponsive from "../hooks/use-responsive"
 
@@ -35,7 +34,7 @@ const Hero = () => {
       }
     }
   `)
-  const starsCount = data?.githubData?.data?.repository?.stargazers?.totalCount
+ 
 
   return (
     <div>
@@ -52,7 +51,7 @@ const Hero = () => {
             </Box>
             <Box>
               <a
-                href="mailto:hi@amankalra.com?subject=Hello,Let's get in touch!"
+                href="mailto:hi@amankalra.com"
                 rel="noopener noreferrer"
                 target="_blank"
                 sx={{
