@@ -31,7 +31,7 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
       thought
     />
     <Container>
-      <Themed.a
+      {/* <Themed.a
         as={Link}
         to="/"
         sx={{
@@ -63,10 +63,10 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
         <LeftArrow />
         {` `}
         <div sx={{ fontSize: 1, fontWeight: `medium` }}>
-          You're reading a short post about Gatsby Themes. <br /> Go back to the homepage to view all themes & give the
+        Go back to the homepage to view all themes & give the
           project a star if you like the content!
         </div>
-      </Themed.a>
+      </Themed.a> */}
       <div className="thought-speakable">
         <MDXRenderer>{thought.body}</MDXRenderer>
       </div>
@@ -85,8 +85,8 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
       >
         <div sx={{ mr: 4 }}>Published on {thought.date}</div>
         <TwitterShareButton
-          url={`https://themes.lekoarts.de${thought.slug}`}
-          via="lekoarts_de"
+          url={`https://amankalra.com${thought.slug}`}
+          via="amankalra172"
           title={thought.title}
           sx={{
             variant: `buttons.transparent`,
@@ -120,18 +120,17 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
           position: `relative`,
         }}
       >
-        <div>Like what you're reading? Try out the available themes!</div>
+        <div>Like what you're reading? Try out other informative blogs!</div>
         <a
-          href="https://github.com/LekoArts/gatsby-themes"
+          href="/"
           rel="noopener noreferrer"
-          target="_blank"
           sx={{
             variant: `buttons.white`,
             mt: 4,
             display: `inline-block`,
           }}
         >
-          View all themes
+          View all topics
         </a>
         <Donut
           width="20px"

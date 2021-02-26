@@ -44,8 +44,8 @@ const Hero = () => {
             <Box sx={{ maxWidth: `490px` }}>
               <Themed.h1>Hello World! </Themed.h1>
               <Themed.p sx={{ color: `dark`, mt: 3, mb: 4 }}>
-               Passionate about <span sx={{ fontWeight: `bold` }}>products</span> and{` `}
-                <span sx={{ fontWeight: `bold` }}>data!</span> <br /> Curious about its place in the businesses and future sustainability. Interested in working together?
+               Passionate about <span sx={{ fontWeight: `bold` }}>Products</span> and{` `}
+                <span sx={{ fontWeight: `bold` }}>Data!</span> <br /> <br /> Curious about its place in the businesses and future sustainability. Interested in working together?
 
               </Themed.p>
             </Box>
@@ -89,6 +89,7 @@ const Hero = () => {
               </a>
             </Box>
           </Box>
+          {/* <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="alternatetext"></img> */}
           {isBigScreen && <ThreeDModel />}
         </Flex>
       </Container>

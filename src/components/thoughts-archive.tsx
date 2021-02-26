@@ -2,6 +2,7 @@
 import { Container, Themed, jsx, Flex } from "theme-ui"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import RSS from "../icons/rss"
+import { CopyBlock, dracula } from "react-code-blocks";
 
 type ThoughtQueryProps = {
   thoughts: {
@@ -34,8 +35,8 @@ const ThoughtsArchive = () => {
     <section data-name="newsletter-archive">
       <Container>
         <div sx={{ display: `flex`, alignItems: `center`, flexWrap: `wrap` }}>
-          <Themed.h2 sx={{ mr: 3 }}>Projects and More!</Themed.h2>
-          {/* <a
+          <Themed.h2 sx={{ mr: 3 }}> Projects and More! </Themed.h2>
+           {/* <a
             href="/rss.xml"
             title="RSS Feed of 'Newsletter Archive'"
             aria-label="RSS Feed of 'Newsletter Archive'"

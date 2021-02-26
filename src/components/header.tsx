@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { Container, jsx, Flex, Box, useColorMode } from "theme-ui"
+import { Color } from "three"
 import Logo from "../icons/logo"
 import ThemeSwitch from "../icons/theme-switch"
 
@@ -31,7 +32,7 @@ const Header = () => {
               sx={{ height: 12, width: 1, backgroundColor: `primary`, borderRadius: `full`, mx: 3 }}
             />
             <Flex sx={{ flexDirection: `column` }}>
-              <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}>Aman Kalra</Box>
+              <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}> Aman Kalra </Box>
               <Box sx={{ color: `dark` }}>Living one day at the moment.</Box>
             </Flex>
           </Flex>

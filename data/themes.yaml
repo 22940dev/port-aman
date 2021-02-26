@@ -1,5 +1,5 @@
 - title: "Main Development GmBH, Germany"
-  location: "Product Management Werkstudent"
+  location: "Data Science, Product Management"
   description: " I currently work at Main.Dev as a product management work student for their new product Loophole. Loophole works on reverse poxy exposing your localhost.  I worked on product modeling, branding, and vision development. Currently, Loophole ( beta version ) is used by 60+ users from 10+ countries in less than 1 month of release. "
   image: "./laptop.jpg"
   shapes:
@@ -59,7 +59,7 @@ System. "
       opacity: 1
 - title: "Wipro Technologies, India"
   location: "Software Engineer"
-  description: " "
+  description: "Technology enthusiasm led me to Wipro Technologies. As the project engineer,  I worked on two projects for giants like Xerox Corporation and Cigna Healthcare. My key responsibilities included data profiling, designing load ETL, and business logic."
   image: "./work.jpg"
   shapes:
     - type: "donut"
@@ -70,7 +70,7 @@ System. "
       opacity: 1
 - title: "Oye Happy Pvt. Ltd, India"
   location: "Innovation Specialist"
-  description: ""
+  description: "Oye Happy offers uniquely customized gifts to surprise your loved ones. My key responsibilities were to keep myself updated with the latest trends in social media and build brand awareness campaigns. The role demanded making key data-driven business decisions. A major milestone was the successful launch of the nationwide campaign “To Pakistan with Love.”"
   image: "./HJ.jpg"
   shapes:
     - type: "donut"

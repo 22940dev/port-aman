@@ -189,11 +189,11 @@ const Listing = () => {
         )
       })}
       <p sx={{ mt: 6, fontSize: [1, 2, 2, 4], textAlign: `center` }}>
-        <span sx={{ fontWeight: `bold` }}> You have reached the end!</span> <br /> Wanted to discuss about data science, product management, marketing or even dogecoin, get in touch at {` `}
+        <span sx={{ fontWeight: `bold` }}> You have reached the end!</span> <br />Want to discuss about data science, product management, marketing or even dogecoin, get in touch at {` `}
         <Themed.a href="mailto:hi@amankalra.com">
         hi@amankalra.com 
         </Themed.a>
-          !
+          .
       </p>
     </Container>
   )
@@ -203,7 +203,7 @@ export default Listing
 
 const ListingQuery = graphql`
   query {
-    allThemes(sort: { fields: title }) {
+    allThemes {
       nodes {
         title
         location
