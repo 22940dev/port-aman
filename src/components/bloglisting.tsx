@@ -64,10 +64,10 @@ const cardStyle = {
   },
 }
 
-const BlogListing = () => {
+const Listing = () => {
   const {
-    allThemes: { nodes: blogs },
-  } = useStaticQuery<Props>(BlogListingQuery)
+    allThemes: { nodes: themes },
+  } = useStaticQuery<Props>(ListingQuery)
 
   const [mode] = useColorMode()
 
@@ -86,12 +86,12 @@ const BlogListing = () => {
 
   return (
     <Container sx={{ py: 4 }}>
-      {blogs.map((blog, index) => {
+      {themes.map((theme, index) => {
         const isEven = index % 2 === 0
 
         return (
           <Box
-            key={blog.title}
+            key={theme.title}
             sx={{
               py: [5, 5, 6],
               display: `grid`,
@@ -108,7 +108,7 @@ const BlogListing = () => {
                 order: isEven ? 1 : [1, 1, 2],
               }}
             >
-              {blog.shapes.map((shape) => {
+              {theme.shapes.map((shape) => {
                 switch (shape.type) {
                   case `circle`:
                     return (
@@ -140,10 +140,10 @@ const BlogListing = () => {
                 }
               })}
               <a
-                href={blog.preview}
-                rel="noopener noreferrer"
-                target="_blank"
-                aria-label={`Visit a preview of theme ${blog.title}`}
+                // href={theme.preview}
+                // rel="noopener noreferrer"
+                // target="_blank"
+                aria-label={`Know more! `}
                 sx={{
                   ...cardStyle,
                   "[data-name='card-overlay']": {
@@ -167,47 +167,46 @@ const BlogListing = () => {
                   },
                 }}
               >
-                <div data-name="card-overlay" aria-hidden>
+                {/* <div data-name="card-overlay" aria-hidden>
                   <div sx={{ display: `flex`, alignItems: `center` }}>
                     <img width="40" height="40" sx={{ mr: 3 }} alt="" src={iconExternal} /> Preview
                   </div>
-                </div>
-                {blog?.image?.childImageSharp?.gatsbyImageData && (
-                  <Img image={blog.image.childImageSharp.gatsbyImageData} alt="" />
+                </div> */}
+                {theme?.image?.childImageSharp?.gatsbyImageData && (
+                  <Img image={theme.image.childImageSharp.gatsbyImageData} alt="" />
                 )}
               </a>
             </div>
             <Flex sx={{ flexDirection: `column`, alignItems: `flex-start`, order: isEven ? 2 : [2, 2, 1] }}>
-              <Themed.h1 as="h3">{blog.title}</Themed.h1>
-              <Themed.p>{blog.description}</Themed.p>
-              <a href={blog.url} sx={{ variant: `buttons.primary`, mt: 3, ...buttonStyles }}>
+              <Themed.h1 as="h3">{theme.title}</Themed.h1>
+              <Themed.h3>{theme.location}</Themed.h3>
+              <Themed.p>{theme.description}</Themed.p>
+              {/* <a href={theme.url} sx={{ variant: `buttons.primary`, mt: 3, ...buttonStyles }}>
                 Get the Theme
-              </a>
+              </a> */}
             </Flex>
           </Box>
         )
       })}
-      <p sx={{ mt: 6, fontSize: [1, 2, 2, 3], textAlign: `center` }}>
-        <span sx={{ fontWeight: `bold` }}>More Themes are coming soon ...</span> <br /> In the meantime you can have a
-        look at my already existing{` `}
-        <Themed.a href="https://github.com/LekoArts?utf8=%E2%9C%93&tab=repositories&q=gatsby&type=public&language=">
-          open source Gatsby projects
+      <p sx={{ mt: 6, fontSize: [1, 2, 2, 4], textAlign: `center` }}>
+        <span sx={{ fontWeight: `bold` }}> You have reached the end!</span> <br />Want to discuss about data science, product management, marketing or even dogecoin, get in touch at {` `}
+        <Themed.a href="mailto:hi@amankalra.com">
+        hi@amankalra.com 
         </Themed.a>
-        !
+          .
       </p>
     </Container>
   )
 }
 
-export default BlogListing
+export default Listing
 
-const BlogListingQuery = graphql`
+const ListingQuery = graphql`
   query {
-    allThemes(sort: { fields: title, order: ASC }) {
+    allThemes {
       nodes {
         title
-        url
-        preview
+        location
         description
         shapes {
           color
