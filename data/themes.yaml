@@ -1,0 +1,165 @@
+- title: "Main Development GmBH, Germany"
+  location: "Product Management Werkstudent"
+  description: " I currently work at Main.Dev as a product management work student for their new product Loophole. Loophole works on reverse poxy exposing your localhost.  I worked on product modeling, branding, and vision development. Currently, Loophole ( beta version ) is used by 60+ users from 10+ countries in less than 1 month of release. "
+  image: "./laptop.jpg"
+  shapes:
+    - type: "circle"
+      color: "green"
+      size: ["200px", "300px"]
+      xOffset: ["-140px"]
+      yOffset: ["-70px"]
+      opacity: 0.5
+    # - type: "donut"
+    #   color: "teal"
+    #   size: ["25px", "100px"]
+    #   xOffset: ["50px"]
+    #   yOffset: ["-60px"]
+    #   opacity: 1
+- title: "The Storii Media Services, India"
+  location: "CoFounder & Advisor"
+  description: "Founded in 2020, The Storii believes in Delivering a Digital Experience. We work with ambitious organizations, combine our design thinking, digital expertise, and creativity to build something great together. Started from a small room, today we host major companies and startups with branding, social media management, and videos from our in-house digital production house. We believe a brand is the most important asset for its company. "
+  image: "./Contact.jpg"
+  shapes:
+    - type: "circle"
+      color: "red"
+      size: ["100px", "175px"]
+      xOffset: ["-60px", "-90px"]
+      yOffset: ["100px", "200px", "180px", "230px"]
+      opacity: 1
+    - type: "donut"
+      color: "teal"
+      size: ["80px", "150px"]
+      xOffset: ["-30px", "-70px"]
+      yOffset: ["-50px", "-50px", "-50px"]
+      opacity: 1
+    - type: "circle"
+      color: "yellow"
+      size: ["100px", "135px"]
+      xOffset: ["350px", "650px", "380px", "450px"]
+      yOffset: ["-40px", "-60px"]
+      opacity: 1
+- title: "OVGU, Magdeburg"
+  location: "University Teaching Assistant"
+  description: "
+In the university, I work as a tutor for Databases Concepts under the DBSE group for the summer semester 2020 and 2021. Along with that, I was a key volunteer at SI@FIN (Support Internationals at FIN, OvGU) to assist international students in understanding the German Education
+System. "
+  image: "./webinar.jpg"
+  shapes:
+    - type: "circle"
+      color: "orange"
+      size: ["120px", "220px"]
+      xOffset: ["-20px"]
+      yOffset: ["100px", "180px"]
+      opacity: 1
+    - type: "circle"
+      color: "gray"
+      size: ["50px", "100px"]
+      xOffset: ["-40px"]
+      yOffset: ["-60px"]
+      opacity: 1
+- title: "Wipro Technologies, India"
+  location: "Software Engineer"
+  description: " "
+  image: "./work.jpg"
+  shapes:
+    - type: "donut"
+      color: "purple"
+      size: ["80px", "150px"]
+      xOffset: ["-40px", "-60px"]
+      yOffset: ["-40px", "-60px"]
+      opacity: 1
+- title: "Oye Happy Pvt. Ltd, India"
+  location: "Innovation Specialist"
+  description: ""
+  image: "./HJ.jpg"
+  shapes:
+    - type: "donut"
+      color: "blue"
+      size: ["120px", "220px"]
+      xOffset: ["-70px"]
+      yOffset: ["100px", "180px"]
+      opacity: 1
+    - type: "circle"
+      color: "purple"
+      size: ["50px", "100px"]
+      xOffset: ["140px"]
+      yOffset: ["-40px", "-70px"]
+      opacity: 1
+# - title: "Emilia"
+#   url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emilia"
+#   preview: "https://emilia.lekoarts.de"
+#   description: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images."
+#   image: "./emilia.png"
+#   shapes:
+#     - type: "circle"
+#       color: "blue"
+#       size: ["100px", "200px"]
+#       xOffset: ["-70px"]
+#       yOffset: ["100px", "180px"]
+#       opacity: 1
+#     - type: "circle"
+#       color: "orange"
+#       size: ["80px", "100px"]
+#       xOffset: ["350px", "350px", "320px", "400px"]
+#       yOffset: ["-40px", "-70px"]
+#       opacity: 1
+# - title: "GraphQL Playground"
+#   url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-graphql-playground"
+#   preview: "https://gatsby-theme-graphql-playground.netlify.com"
+#   description: "Write queries in MDX to create an interactive GraphQL Playground to showcase the power of GraphQL."
+#   image: "./graphql-playground.png"
+#   shapes:
+#     - type: "circle"
+#       color: "black"
+#       size: ["120px", "150px", "170px", "220px"]
+#       xOffset: ["-60px", "100px"]
+#       yOffset: ["200px", "200px", "140px", "180px"]
+#       opacity: 1
+#     - type: "donut"
+#       color: "red"
+#       size: ["60px", "110px"]
+#       xOffset: ["-40px"]
+#       yOffset: ["-60px"]
+#       opacity: 1
+# - title: "Minimal Blog"
+#   url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog"
+#   preview: "https://minimal-blog.lekoarts.de"
+#   description: "Typography driven, feature-rich blogging theme with minimal aesthetics."
+#   image: "./minimal-blog.png"
+#   shapes:
+#     - type: "donut"
+#       color: "purple"
+#       size: ["80px", "150px"]
+#       xOffset: ["-40px", "-60px"]
+#       yOffset: ["-40px", "-60px"]
+#       opacity: 1
+# - title: "Styleguide"
+#   url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-styleguide"
+#   preview: "https://theme-ui-styleguide.netlify.com"
+#   description: "Instantly create a styleguide page based on your Theme UI configuration. Zero-config."
+#   image: "./styleguide.png"
+#   shapes:
+#     - type: "circle"
+#       color: "pink"
+#       size: ["80px", "150px"]
+#       xOffset: ["-40px", "-60px"]
+#       yOffset: ["-40px", "-60px"]
+#       opacity: 1
+# - title: "Jodie"
+#   url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-jodie"
+#   preview: "https://jodie.lekoarts.de"
+#   description: "Image-heavy photography portfolio with colorful accents & customizable pages."
+#   image: "./jodie.png"
+#   shapes:
+#     - type: "circle"
+#       color: "blue"
+#       size: ["80px", "200px"]
+#       xOffset: ["-40px", "-120px"]
+#       yOffset: ["-40px", "-60px"]
+#       opacity: 1
+#     - type: "donut"
+#       color: "orange"
+#       size: ["80px", "150px"]
+#       xOffset: ["300px", "600px", "250px", "300px"]
+#       yOffset: ["-30px", "-60px", "200px", "250px"]
+#       opacity: 1
