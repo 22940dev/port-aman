@@ -153,6 +153,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-analytics/gatsby-ssr */ "./node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js"),
   options: {
     "plugins": [],
+    "trackingId": "G-PRE2Z4YH19",
     "anonymize": true,
     "head": false,
     "respectDNT": false,

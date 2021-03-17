@@ -67,7 +67,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: 'G-PRE2Z4YH19',
         anonymize: true,
       },
     },
@@ -83,7 +83,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
-        typeName: `Themes`,
+        typeName: `themes`,
       },
     },
     `gatsby-plugin-image`,
