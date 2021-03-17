@@ -37,7 +37,7 @@ const Header = () => {
             </Flex>
           </Flex>
           <Flex sx={{ mt: [5, 0], alignItems: `center` }}>
-            <a href="Aman's Resume.pdf" sx={{ variant: `buttons.secondary` }} target="_blank" >
+            <a href="https://www.amankalra.com/Resume.pdf" sx={{ variant: `buttons.secondary` }} target="_blank" >
               Resume
             </a>
             <button

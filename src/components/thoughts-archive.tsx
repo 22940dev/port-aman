@@ -36,34 +36,6 @@ const ThoughtsArchive = () => {
       <Container>
         <div sx={{ display: `flex`, alignItems: `center`, flexWrap: `wrap` }}>
           <Themed.h2 sx={{ mr: 3 }}> Projects and More! </Themed.h2>
-           {/* <a
-            href="/rss.xml"
-            title="RSS Feed of 'Newsletter Archive'"
-            aria-label="RSS Feed of 'Newsletter Archive'"
-            sx={{
-              width: `36px`,
-              height: `36px`,
-              backgroundColor: `primary`,
-              display: `inline-flex`,
-              alignItems: `center`,
-              justifyContent: `center`,
-              padding: `0.45rem`,
-              borderRadius: `lg`,
-              border: `2px solid transparent`,
-              borderColor: `primary`,
-              svg: {
-                color: `white`,
-              },
-              "&:hover, &:focus": {
-                backgroundColor: `transparent`,
-                svg: {
-                  color: `primary`,
-                },
-              },
-            }}
-          >
-            <RSS />
-          </a> */}
         </div>
         <Themed.p>I have got a chance to work on various projects in my Master's journey and professional life. Along with that, curiosity to learn has led me to explore other repositories on Github. Don't forget to read my experience experimenting with those! Happy reading. 😊 </Themed.p>
         <div sx={{ my: 5 }}>

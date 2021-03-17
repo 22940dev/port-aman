@@ -60,6 +60,13 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
       <Box as="footer" variant="layout.footer">
         &copy; {new Date().getFullYear()} by <Themed.a href="https://www.amankalra.com">Aman Kalra</Themed.a>. All rights
         reserved.{` `}
+        <Themed.a rel="nofollow" href="/imprint">
+          Imprint
+        </Themed.a>
+        .{` `}
+        <Themed.a rel="nofollow" href="/privacy">
+          Privacy.
+        </Themed.a>
           <Flex
             sx={{
               justifyContent: `space-evenly`,

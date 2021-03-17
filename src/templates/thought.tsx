@@ -8,6 +8,7 @@ import LeftArrow from "../icons/left-arrow"
 import { Circle, Donut } from "../components/shapes"
 import CircleGrid from "../icons/circle-grid"
 import SEO from "../components/seo"
+import { CopyBlock, dracula } from "react-code-blocks";
 
 type ThoughtTemplateProps = {
   thought: {
@@ -102,7 +103,7 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
         >
           Share on Twitter
         </TwitterShareButton>
-        <Themed.a href="/rss.xml">RSS Feed</Themed.a>
+        <Themed.a href="/rss.xml">RSS Feed</Themed.a>Cypress.io for E2E-testing njiu899999988888888888888888888888888888
       </div>
       <Flex
         sx={{
