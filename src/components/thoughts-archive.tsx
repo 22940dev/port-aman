@@ -2,6 +2,7 @@
 import { Container, Themed, jsx, Flex } from "theme-ui"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import RSS from "../icons/rss"
+import { Circle, Donut } from "./shapes"
 import { CopyBlock, dracula } from "react-code-blocks";
 
 type ThoughtQueryProps = {

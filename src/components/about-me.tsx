@@ -59,7 +59,7 @@ const AboutMe = () => {
         right={[`145px`, `145px`, `375px`]}
         sx={{ animation: `${upWide} 20s ease-in-out infinite alternate` }}
       />
-      {/* <Logo
+       <img src="about_180.png"  width="190" height="190" alt="alternatetext"
         sx={{
           width: [70, 70, 90],
           height: [70, 70, 90],
@@ -67,11 +67,11 @@ const AboutMe = () => {
           right: [`40px`, `40px`, `240px`],
           position: `absolute`,
           color: `white`,
-        }}
-      /> */}
+        }} 
+      /> 
       <Circle
         size={[`100px`, `100px`, `120px`]}
-        color="darkIndigo"
+        color="black"
         top="90px"
         right={[`25px`, `25px`, `225px`]}
         sx={{ boxShadow: `0 0 0 30px rgba(90, 103, 216, 0.15)` }}
@@ -158,12 +158,22 @@ const AboutMe = () => {
             </a>
           </Flex>
         </Box>
-        <Circle
+        <img src="File_000.png"  width="300" height="300" alt="Skills"
+        sx={{
+          width: [70, 70, 90],
+          height: [70, 70, 90],
+          top: `-52px`,
+          right: [`10px`, `84px`],
+          position: `absolute`,
+        }} 
+      /> 
+
+          <Circle
           color="orange"
           size={[`60px`, `80px`, `130px`]}
           top={[`0px`, `-30px`, `-60px`]}
           right={[`20px`, `70px`]}
-          sx={{ zIndex: 10 }}
+          sx={{boxShadow: `0 0 0 30px rgba(90, 103, 216, 0.15)`  }}
         />
         <Circle
           color="green"

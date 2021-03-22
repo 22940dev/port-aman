@@ -19,17 +19,17 @@ const Header = () => {
       <Container sx={{ pb: 0 }}>
         <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexDirection: [`column`, `row`] }}>
           <Flex>
-            {/* <a
+            <a
               aria-label="Link to the theme creator's website"
               sx={{ color: `text`, "&:hover,&:focus": { color: `primary`, boxShadow: `none` } }}
-              href="http://www.lekoarts.de"
-            >
-              <Logo sx={{ width: 12, height: 12 }} />
-            </a> */}
+              href="http://www.amankalra.com"
+            > <img src="android-chrome-192x192.png"  width="65" height="65" alt="alternatetext"></img>
+             {/* <Logo sx={{ width: -1, height: 1 }} /> */}
+            </a> 
             <Box
               aria-hidden="true"
               focusable="false"
-              sx={{ height: 12, width: 1, backgroundColor: `primary`, borderRadius: `full`, mx: 3 }}
+              sx={{ height: 12, width: 1, backgroundColor: `primary`, borderRadius: `full`, mx: 2 }}
             />
             <Flex sx={{ flexDirection: `column` }}>
               <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}> Aman Kalra </Box>
@@ -37,7 +37,11 @@ const Header = () => {
             </Flex>
           </Flex>
           <Flex sx={{ mt: [5, 0], alignItems: `center` }}>
-            <a href="https://www.amankalra.com/Resume.pdf" sx={{ variant: `buttons.secondary` }} target="_blank" >
+          <a href="/blog" sx={{ variant: `buttons.white`, mr: 4, px: 3, py:1.5}}>
+              Projects
+            </a>
+
+            <a href="https://www.amankalra.com/Resume.pdf" sx={{ variant: `buttons.white`, px: 3, py:1.5}} target="_blank" >
               Resume
             </a>
             <button
