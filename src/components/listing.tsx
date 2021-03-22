@@ -9,6 +9,7 @@ type Props = {
   allThemes: {
     nodes: {
       title: string
+      date: string
       url: string
       preview: string
       description: string
@@ -179,7 +180,7 @@ const Listing = () => {
             </div>
             <Flex sx={{ flexDirection: `column`, alignItems: `flex-start`, order: isEven ? 2 : [2, 2, 1] }}>
               <Themed.h1 as="h3">{theme.title}</Themed.h1>
-              <Themed.h3>{theme.location}</Themed.h3>
+              <Themed.h3>{theme.date}</Themed.h3>
               <Themed.p>{theme.description}</Themed.p>
               {/* <a href={theme.url} sx={{ variant: `buttons.primary`, mt: 3, ...buttonStyles }}>
                 Get the Theme
@@ -206,7 +207,7 @@ const ListingQuery = graphql`
     allThemes {
       nodes {
         title
-        location
+        date
         description
         shapes {
           color

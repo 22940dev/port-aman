@@ -32,7 +32,7 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
       thought
     />
     <Container>
-      {/* <Themed.a
+      <Themed.a
         as={Link}
         to="/"
         sx={{
@@ -64,10 +64,9 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
         <LeftArrow />
         {` `}
         <div sx={{ fontSize: 1, fontWeight: `medium` }}>
-        Go back to the homepage to view all themes & give the
-          project a star if you like the content!
+        Go back to the homepage to view all the topics and share if you like the content!
         </div>
-      </Themed.a> */}
+      </Themed.a>
       <div className="thought-speakable">
         <MDXRenderer>{thought.body}</MDXRenderer>
       </div>
@@ -103,7 +102,7 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
         >
           Share on Twitter
         </TwitterShareButton>
-        <Themed.a href="/rss.xml">RSS Feed</Themed.a>Cypress.io for E2E-testing njiu899999988888888888888888888888888888
+        <Themed.a href="/rss.xml">RSS Feed</Themed.a>
       </div>
       <Flex
         sx={{
@@ -123,7 +122,7 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
       >
         <div>Like what you're reading? Try out other informative blogs!</div>
         <a
-          href="/"
+          href="https://www.amankalra.com/blog"
           rel="noopener noreferrer"
           sx={{
             variant: `buttons.white`,

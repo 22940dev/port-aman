@@ -9,6 +9,7 @@ type Props = {
   allThemes: {
     nodes: {
       title: string
+      date: string
       url: string
       preview: string
       description: string
@@ -64,7 +65,7 @@ const cardStyle = {
   },
 }
 
-const Listing = () => {
+const BlogListing = () => {
   const {
     allThemes: { nodes: themes },
   } = useStaticQuery<Props>(ListingQuery)
@@ -85,7 +86,7 @@ const Listing = () => {
   }
 
   return (
-    <Container sx={{ py: 4 }}>
+    <Container sx={{ py: 1 }}>
       {themes.map((theme, index) => {
         const isEven = index % 2 === 0
 
@@ -140,10 +141,10 @@ const Listing = () => {
                 }
               })}
               <a
-                // href={theme.preview}
-                // rel="noopener noreferrer"
-                // target="_blank"
-                aria-label={`Know more! `}
+                href={theme.preview}
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label={`Visit a preview of theme ${theme.title}`}
                 sx={{
                   ...cardStyle,
                   "[data-name='card-overlay']": {
@@ -167,23 +168,23 @@ const Listing = () => {
                   },
                 }}
               >
-                {/* <div data-name="card-overlay" aria-hidden>
+                <div data-name="card-overlay" aria-hidden>
                   <div sx={{ display: `flex`, alignItems: `center` }}>
                     <img width="40" height="40" sx={{ mr: 3 }} alt="" src={iconExternal} /> Preview
                   </div>
-                </div> */}
+                </div>
                 {theme?.image?.childImageSharp?.gatsbyImageData && (
                   <Img image={theme.image.childImageSharp.gatsbyImageData} alt="" />
                 )}
               </a>
             </div>
             <Flex sx={{ flexDirection: `column`, alignItems: `flex-start`, order: isEven ? 2 : [2, 2, 1] }}>
-              <Themed.h1 as="h3">{theme.title}</Themed.h1>
-              <Themed.h3>{theme.location}</Themed.h3>
+              <Themed.h3 as="h3">{theme.title}</Themed.h3>
+              <Themed.p>{theme.date}</Themed.p>
               <Themed.p>{theme.description}</Themed.p>
-              {/* <a href={theme.url} sx={{ variant: `buttons.primary`, mt: 3, ...buttonStyles }}>
-                Get the Theme
-              </a> */}
+              <a href={theme.url} sx={{ variant: `buttons.primary`, px: 3, py:1.5, mt: 3, ...buttonStyles }}>
+                Read more
+              </a>
             </Flex>
           </Box>
         )
@@ -199,14 +200,16 @@ const Listing = () => {
   )
 }
 
-export default Listing
+export default BlogListing
 
 const ListingQuery = graphql`
   query {
     allThemes {
       nodes {
         title
-        location
+        url
+        preview
+        date
         description
         shapes {
           color

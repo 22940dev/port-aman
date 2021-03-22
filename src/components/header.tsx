@@ -23,7 +23,7 @@ const Header = () => {
               aria-label="Link to the theme creator's website"
               sx={{ color: `text`, "&:hover,&:focus": { color: `primary`, boxShadow: `none` } }}
               href="http://www.amankalra.com"
-            > <img src="android-chrome-192x192.png"  width="65" height="65" alt="alternatetext"></img>
+            > <img src="http://www.amankalra.com/android-chrome-192x192.png"  width="65" height="65" alt="alternatetext"></img>
              {/* <Logo sx={{ width: -1, height: 1 }} /> */}
             </a> 
             <Box
