@@ -71,35 +71,36 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
             sx={{
               justifyContent: `space-evenly`,
               mt: 2,
-
+              
               flexWrap: `wrap`,
-              a: { mt: 3, textAlign: `left` },
-              div: { mt: 3 },
+              a: { mt: 3, textAlign: `center` },
+             
+              div: { mt: 1 },
               flexDirection: [`column`, `row`],
             }}
           >
             <Themed.a href="https://www.linkedin.com/in/amankalra172/" sx={{ variant: `buttons.white` }} target="_blank">
-            <img src="../img/android-chrome-192x192.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-            Linkedin
+            <img src="../linkedin.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+            
             </Themed.a>
 
             <Themed.a href="https://github.com/amankalra172" sx={{ variant: `buttons.white` }} target="_blank">
-            <img src="../img/android-chrome-192x192.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-            GitHub 
+            <img src="../github.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+             
             </Themed.a>
 
             <Themed.a href="https://www.facebook.com/amankalra172" sx={{ variant: `buttons.white` }} target="_blank">
-            <img src="../img/android-chrome-192x192.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-            Facebook 
+            <img src="../facebook.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+             
             </Themed.a>
             <Themed.a href="https://www.instagram.com/amankalra172/" sx={{ variant: `buttons.white` }} target="_blank">
-            <img src= "../img/android-chrome-192x192.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-            Instagram 
+            <img src= "../instagram.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+             
             </Themed.a> 
             
             <Themed.a href="https://twitter.com/amankalra172" sx={{ variant: `buttons.white` }} target="_blank">
-            <img src="../img/android-chrome-192x192.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-            Twitter 
+            <img src="../twitter.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+             
             </Themed.a> 
             
           </Flex>
