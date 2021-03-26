@@ -69,7 +69,7 @@ module.exports = {
       options: {
         trackingId: "G-PRE2Z4YH19",
         head: true,
-        anonymize: true,
+        
       },
     },
     {
