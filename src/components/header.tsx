@@ -23,8 +23,18 @@ const Header = () => {
               aria-label="Link to the theme creator's website"
               sx={{ color: `text`, "&:hover,&:focus": { color: `primary`, boxShadow: `none` } }}
               href="http://www.amankalra.com"
-            > <img src="https://github.com/amankalra172/amankalra172.github.io/blob/master/static/android-chrome-192x192.png"  width="65" height="65" alt="Logo" loading="eager" ></img>
+            > 
+            {/* <img src="../img/android-chrome-192x192.png"  width="65" height="65" alt="Logo" loading="eager" ></img> */}
              {/* <Logo sx={{ width: -1, height: 1 }} /> */}
+
+             <img src="../android-chrome-192x192.png"  alt="alternatetext"
+            sx={{
+            width: 65, height: 65,
+            position: `relative`,
+            top : -10,
+            color: `white`,
+            }} 
+            /> 
             </a> 
             <Box
               aria-hidden="true"
@@ -41,7 +51,7 @@ const Header = () => {
               Projects
             </a>
 
-            <a href="https://www.amankalra.com/Resume.pdf" sx={{ variant: `buttons.white`, px: 3, py:1.5}} target="_blank" >
+            <a href="../Resume.pdf" sx={{ variant: `buttons.white`, px: 3, py:1.5}} target="_blank" >
               Resume
             </a>
             <button
