@@ -55,7 +55,7 @@ module.exports = {
         variables: {},
         graphQLQuery: `
           query {
-            repository(owner: "LekoArts", name: "gatsby-themes") {
+            repository(owner: "Aman", name: "gatsby-themes") {
               stargazers {
                 totalCount
               }

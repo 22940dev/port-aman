@@ -24,7 +24,7 @@ type ThoughtTemplateProps = {
 const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { thought } }) => (
   <Layout thought>
     <SEO
-      title={`${thought.title} | Gatsby Themes by LekoArts`}
+      title={`${thought.title} | Blogs by Aman Kalra`}
       description={thought.excerpt}
       pathname={thought.slug}
       datePublished={thought.date}

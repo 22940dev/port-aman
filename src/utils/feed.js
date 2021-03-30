@@ -29,7 +29,7 @@ module.exports = {
         }
       `,
       output: `rss.xml`,
-      title: `Gatsby Themes by LekoArts - Thoughts`,
+      title: `Aman Kalra Portfolio`,
     },
   ],
 }
