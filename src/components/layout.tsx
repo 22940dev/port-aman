@@ -81,26 +81,26 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
           >
             <Themed.a href="https://www.linkedin.com/in/amankalra172/" sx={{ variant: `buttons.white` }} target="_blank">
             <img src="../linkedin.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-            
             </Themed.a>
 
             <Themed.a href="https://github.com/amankalra172" sx={{ variant: `buttons.white` }} target="_blank">
             <img src="../github.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-             
             </Themed.a>
+            
+            <Themed.a href="https://www.instagram.com/amankalra172/" sx={{ variant: `buttons.white` }} target="_blank">
+            <img src= "../instagram.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+            </Themed.a> 
+            
+            <Themed.a href="mailto:hi@amankalra.com" sx={{ variant: `buttons.white` }} target="_blank">
+            <img src= "../gmail.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
+            </Themed.a> 
 
             <Themed.a href="https://www.facebook.com/amankalra172" sx={{ variant: `buttons.white` }} target="_blank">
             <img src="../facebook.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-             
             </Themed.a>
-            <Themed.a href="https://www.instagram.com/amankalra172/" sx={{ variant: `buttons.white` }} target="_blank">
-            <img src= "../instagram.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-             
-            </Themed.a> 
             
             <Themed.a href="https://twitter.com/amankalra172" sx={{ variant: `buttons.white` }} target="_blank">
             <img src="../twitter.png"  width="22" height="22" alt="alternatetext" loading="eager" ></img>
-             
             </Themed.a> 
             
           </Flex>
