@@ -17,7 +17,7 @@ module.exports = {
     language: `en`,
     image: `/banner.png`,
     author: `@amankalra172`,
-  },
+  },  
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

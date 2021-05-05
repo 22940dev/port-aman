@@ -1,9 +1,41 @@
+- title: "My 3 strategies for leading through these uncertain times!"
+  url: "https://amankalra.com/2021-04-15-leading-during-uncertainity/"
+  preview: "https://amankalra.com/2021-04-15-leading-during-uncertainity/"
+  date: "April 15, 2021"  
+  description: "Pandemic provides enough reminders that leaders cannot control the degree of change. Let's take control."
+  image: "./strategy.jpg"
+  shapes:
+    - type: "donut"
+      color: "purple"
+      size: ["80px", "150px"]
+      xOffset: ["-40px", "-60px"]
+      yOffset: ["-40px", "-60px"]
+      opacity: 1
+- title: "Let’s play with emotions!"
+  url: "https://amankalra.com/2021-03-25-let's-play-with-emotions/"
+  preview: "https://amankalra.com/2021-03-25-let's-play-with-emotions/"
+  date: "March 3, 2021"
+  description: "Fine-tuning BERT tutorial with PyTorch for emotion classification."
+  image: "./emoji.jpg"
+  shapes:
+    - type: "circle"
+      color: "orange"
+      size: ["120px", "220px"]
+      xOffset: ["-20px"]
+      yOffset: ["100px", "180px"]
+      opacity: 1
+    - type: "circle"
+      color: "gray"
+      size: ["50px", "100px"]
+      xOffset: ["-40px"]
+      yOffset: ["-60px"]
+      opacity: 1
 - title: "Get Started with Loophole!"
   url: "https://amankalra.com/2020-10-10-get-started-with-loophole/"
   preview: "https://amankalra.com/2020-10-10-get-started-with-loophole/"
   date: "October 10, 2020"
   description: "Aspire to expose your localhost to the Internet with minimal effort? "
-  image: "./laptop.jpg"
+  image: "./webdev.jpg"
   shapes:
     - type: "circle"
       color: "green"
@@ -22,7 +54,7 @@
   preview: "https://amankalra.com/2020-08-02-using-NLP-to-detect-Fake-news/"
   date: "August 2, 2020"
   description: "Develop a machine learning model to identify when an article might be fake news. "
-  image: "./Contact.jpg"
+  image: "./fakenews.jpg"
   shapes:
     - type: "circle"
       color: "red"
@@ -42,36 +74,6 @@
       xOffset: ["350px", "650px", "380px", "450px"]
       yOffset: ["-40px", "-60px"]
       opacity: 1
-# - title: "Small improvements can make a huge difference!"
-#   url: "https://emilia.lekoarts.de"
-#   preview: "https://emilia.lekoarts.de"
-#   date: "August 31, 2019"
-#   description: "Website updates, GitHub actions, Emma Theme, Specimens Theme, New Articles "
-#   image: "./webinar.jpg"
-#   shapes:
-#     - type: "circle"
-#       color: "orange"
-#       size: ["120px", "220px"]
-#       xOffset: ["-20px"]
-#       yOffset: ["100px", "180px"]
-#       opacity: 1
-#     - type: "circle"
-#       color: "gray"
-#       size: ["50px", "100px"]
-#       xOffset: ["-40px"]
-#       yOffset: ["-60px"]
-#       opacity: 1
-# - title: "Wipro Technologies, India"
-#   location: "Software Engineer"
-#   description: " "
-#   image: "./work.jpg"
-#   shapes:
-#     - type: "donut"
-#       color: "purple"
-#       size: ["80px", "150px"]
-#       xOffset: ["-40px", "-60px"]
-#       yOffset: ["-40px", "-60px"]
-#       opacity: 1
 # - title: "Oye Happy Pvt. Ltd, India"
 #   location: "Innovation Specialist"
 #   description: ""

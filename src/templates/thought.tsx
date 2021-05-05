@@ -122,7 +122,7 @@ const ThoughtTemplate: React.FC<PageProps<ThoughtTemplateProps>> = ({ data: { th
       >
         <div>Like what you're reading? Try out other informative blogs!</div>
         <a
-          href="https://www.amankalra.com/blog"
+          href="https://amankalra.com/blog"
           rel="noopener noreferrer"
           sx={{
             variant: `buttons.white`,

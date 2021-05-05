@@ -45,9 +45,10 @@ const Hero = () => {
               <Themed.h1>Hello World! </Themed.h1>
               <Themed.p sx={{ color: `dark`, mt: 3, mb: 4 }}>
                Passionate about <span sx={{ fontWeight: `bold` }}>Products</span> and{` `}
-                <span sx={{ fontWeight: `bold` }}>Data!</span> <br /> <br /> Curious about its place in the businesses and future sustainability. Interested in working together?
-
+                <span sx={{ fontWeight: `bold` }}>Data!</span> Curious about its place in the businesses and future sustainability. 
+                <br /><br /> <span sx={{ fontWeight: `bold` }}>Aspiring Data Scientist & Product Management  <br /> Founder - The Storii Media Services <br />  Research Assitant - OVGU </span> 
               </Themed.p>
+              Interested in working together? <br /><br />
             </Box>
             <Box>
               <a

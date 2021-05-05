@@ -48,7 +48,7 @@ const Header = () => {
           </Flex>
           <Flex sx={{ mt: [5, 0], alignItems: `center` }}>
           <a href="/blog" sx={{ variant: `buttons.white`, mr: 4, px: 3, py:1.5}}>
-              Projects
+              Blogs
             </a>
 
             <a href="../Resume.pdf" sx={{ variant: `buttons.white`, px: 3, py:1.5}} target="_blank" >
