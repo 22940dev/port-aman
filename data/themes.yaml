@@ -1,3 +1,28 @@
+- title: "Should Big Decisions Be Based on Data or Your Intuition?"
+  url: "https://amankalra.com/2021-05-12-data-or-intution/"
+  preview: "https://amankalra.com/2021-05-12-data-or-intution/"
+  date: "May 12, 2021"
+  description: "Data is black and white and incredibly useful but it does not paint the entire picture. This is where intuition comes into play."
+  image: "./1.jpg"
+  shapes:
+    - type: "circle"
+      color: "red"
+      size: ["100px", "175px"]
+      xOffset: ["-60px", "-90px"]
+      yOffset: ["100px", "200px", "180px", "230px"]
+      opacity: 1
+    - type: "donut"
+      color: "teal"
+      size: ["80px", "150px"]
+      xOffset: ["-30px", "-70px"]
+      yOffset: ["-50px", "-50px", "-50px"]
+      opacity: 1
+    - type: "circle"
+      color: "yellow"
+      size: ["100px", "135px"]
+      xOffset: ["350px", "650px", "380px", "450px"]
+      yOffset: ["-40px", "-60px"]
+      opacity: 1
 - title: "My 3 strategies for leading through these uncertain times!"
   url: "https://amankalra.com/2021-04-15-leading-during-uncertainity/"
   preview: "https://amankalra.com/2021-04-15-leading-during-uncertainity/"
