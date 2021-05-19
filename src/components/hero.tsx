@@ -46,7 +46,7 @@ const Hero = () => {
               <Themed.p sx={{ color: `dark`, mt: 3, mb: 4 }}>
                Passionate about <span sx={{ fontWeight: `bold` }}>Products</span> and{` `}
                 <span sx={{ fontWeight: `bold` }}>Data!</span> Curious about its place in the businesses and future sustainability. 
-                <br /><br /> <span sx={{ fontWeight: `bold` }}>Aspiring Data Scientist & Product Management  <br /> Founder - The Storii Media Services <br />  Research Assitant - OVGU </span> 
+                <br /><br /> <span sx={{ fontWeight: `bold` }}>Aspiring Data Scientist & Product Management  <br /> Founder - The Storii Media Services <br />  Teaching Assistant - OVGU </span> 
               </Themed.p>
               Interested in working together? <br /><br />
             </Box>
