@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://amankalra.com/sitemap.xml
